@@ -53,7 +53,7 @@ export const ImageSlider = () => {
                     {imageslides.map((_, i) => (
                         <span
                             key={i}
-                            className="dot-indicator"
+                            className="dot-indicator w-3 h-3 rounded-full transition-colors duration-300;"
                             data-active={i === currentIndex}
                         />
                     ))}
